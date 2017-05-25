@@ -1,0 +1,31 @@
+{
+  "name": "blog2",
+  "version": "1.0.0",
+  "description": "blog challenge",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Daine Marshall",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "morgan": "^1.8.1",
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {
+    "express": "~4.15.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Daine-M27/blogChallenge.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "bugs": {
+    "url": "https://github.com/Daine-M27/blogChallenge/issues"
+  },
+  "homepage": "https://github.com/Daine-M27/blogChallenge#readme"
+}
