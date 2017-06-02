@@ -4,7 +4,8 @@
   "description": "blog challenge",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "nodemon server.js",
+    "test": "mocha"
   },
   "author": "Daine Marshall",
   "license": "MIT",
@@ -15,7 +16,9 @@
     "uuid": "^3.0.1"
   },
   "devDependencies": {
-    "express": "~4.15.2"
+    "express": "~4.15.2",
+    "chai": "^4.0.0",
+    "mocha": "^3.4.2"
   },
   "repository": {
     "type": "git",
